@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.Mar.2017, 17:49:17
+    Author     : Asus
+*/
+
+.main-wrapper .main-header {
+
+
+    background-color:#222;
+
+    border-bottom: 1px solid #eee;
+}
+.main-header .main-nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+
+}
+.main-header .main-nav ul:after {
+
+    clear: both;
+    content:'';
+    overflow:hidden;
+    display:block;
+}
+.main-header a{
+
+    color: #ec971f;
+    font-weight: bold;
+}
+
+.main-header .main-nav ul li {
+
+    float:left;
+    margin-top:13px;
+
+}
+.main-header .main-nav ul li a {
+
+    font-weight: bold;
+    padding: 0 15px;
+    color: #5e5e5e;
+    text-decoration: none;
+    font-size: 15px;
+    margin:0 15px;
+
+
+}
+.main-header .main-nav ul li a:hover {
+
+    color:#ec971f;
+
+}
+.main-wrapper .container .carousel-inner img{
+
+    width: 1920px; 
+
+    height: 380px;
+}
+
+/* Çok Satanlar İçin */
+.main-wrapper .container h4{
+    color: #5e5e5e;
+    text-align: center;
+    font-weight: bold;
+
+    margin-top:30px;
+}
+.main-wrapper .container h5{
+    color: #919191;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+.main-wrapper .container .product-item {
+    margin-top: 21px;
+
+}
+.main-wrapper .container .product-item figure img{
+
+    border-radius: 4px;
+}
+.main-wrapper .container .product-item .name{
+
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+.main-wrapper .container .product-item .name a{
+
+    text-decoration: none;
+
+    color: #5e5e5e;
+
+}
+.main-wrapper .container .product-item .prices{
+
+
+    font-size: 13px;
+    text-align: center;
+
+}
+.main-wrapper .container .product-item .prices .price.old{
+
+
+    font-weight: bold;
+    color:#919191;
+    text-decoration:line-through;
+    font-size: 12px;
+    margin-right: 11px;
+}
+
+.main-wrapper .container .product-item .prices .price.new{
+
+    color: #ec971f;
+    font-weight: bold;
+
+}
+.main-wrapper .messagebar{
+
+    background: transparent url('http://www.twitrcovers.com/wp-content/uploads/2012/11/Gaussian-Blur-l.jpg') no-repeat center center;
+    background-size: 100%;
+    padding:20px;
+    margin:60px auto;
+
+
+}
+
+.main-wrapper .messagebar .container span {
+
+    font-weight: bold;
+    margin:0 auto;
+    color:#eee;
+    padding:0 auto;
+    font-size: 21px;
+}
+.main-wrapper .messagebar .container .btn  {
+
+    background : #ec971f;
+    padding:11px;
+    border:0;
+    border-radius: 6px;
+    color:#eee;
+    font-weight: bold;
+}
+
+
+.main-footer{
+
+    background-color: #000;
+    color: #fff;
+
+}
+
+.main-footer .container ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+.main-footer .container  ul li {
+    display:inline-block;
+    margin:0;
+    padding:0;
+
+
+}
+.main-footer ul li a{
+
+
+    padding:10px;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
